@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>карточка товара</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <section class="cards">
+      <div class="card">
+        <div class="product-card">
+          <img src="../img/monik.jpg" alt="Товар" class="product-img" />
+          <h3 class="product-title">UltraBright ZXC228</h3>
+          <p class="product-description">
+            Монитор с высокой яркостью и контрастностью для комфортного
+            просмотра при ярком
+            освещении.
+          </p>
+          <button class="quick-view-btn" onclick="openModal()">
+            Быстрый просмотр
+          </button>
+          <div class="product-btns">
+            <a href="#"><button class="more-detailed-btn">Подробнее</button></a>
+            <a href="#"><button class="more-detailed-btn">В корзину</button></a>
+          </div>
+        </div>
+
+        <div id="modal" class="modal">
+          <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img src="../img/monik.jpg" alt="Товар" class="modal-img" />
+            <h2 class="modal-title">UltraBright ZXC228</h2>
+            <p class="modal-description">
+              Монитор UltraBright ZXC228 оснащён экраном с разрешением Full HD и
+              технологией IPS, обеспечивающей широкие углы обзора и точную
+              цветопередачу. Яркость монитора составляет 350 кд/м², что
+              позволяет комфортно работать и просматривать контент даже при
+              ярком солнечном свете. Контрастность 1000:1 гарантирует чёткое
+              отображение чёрного цвета и глубокий уровень чёрного. Монитор
+              также имеет встроенные динамики мощностью 2 Вт, разъём HDMI для
+              подключения к различным устройствам и эргономичный дизайн с
+              возможностью регулировки наклона и высоты для удобства
+              пользователя.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      
+    </section>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
